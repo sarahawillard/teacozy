@@ -1,0 +1,189 @@
+* {
+  font-family: Helvetica;
+  color: seashell;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: black;
+  font-size: 22px;
+}
+
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+/*----- Navigation Bar -----*/
+
+#navbar {
+  top: 0px;
+  position: fixed;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  font-size: 14px;
+  border-bottom: 1px solid seashell;
+  font-family: Verdana;
+  font-weight: bold;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+#navbar nav {
+  margin-right: 30px;
+}
+
+#navbar .logo {
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+#navbar nav {
+  margin-right: 30px;
+}
+
+#navbar a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/*---- Mission ----*/
+
+.mission {
+  display: flex;
+  align-items: center;
+  display: inline-block;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-color: green;
+  width: 1200px;
+  height: 700px;
+  margin: 70px auto 0;
+}
+
+.info-bar {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  background-color: black;
+}
+
+/*---- Featured Teas ----*/
+
+.item img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+#featured {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin: 70px auto 0;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  display: inline-block;
+}
+
+.item span {
+  padding: 10px 0px;
+}
+
+/*---- Locations ----*/
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  margin: 70px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1200px;
+}
+
+.stores {
+  display: block;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  justify-content: center;
+  margin: 130px 20px;
+  background-color: black;
+}
+
+#locations h2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+/*----- Footer
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: bottom;
+  height: 325px;
+  width: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  background-color: #66CDAA;
+}
+
+.footholder {
+  width: 400px;
+}
+
+.foot1 {
+  display: flex;
+  padding-bottom: 25px;
+}
+
+.foot1 span {
+  border-right: 2px solid white;
+  color: white;
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  padding-right: 25px;
+}
+
+.footer #nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+#nav a {
+  display: inline-block;
+  padding: 0px 10px;
+  color: black;
+}
+
+ -----*/
